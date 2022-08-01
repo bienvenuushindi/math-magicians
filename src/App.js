@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Calculator from './components/calculator';
 
 function App() {
   return (
-      <div></div>
+    <Calculator />
   );
 }
 
