@@ -1,6 +1,9 @@
 # math-magicians
 
-This set up the environment and tools needed to develop a Math Magicians' React application
+This is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+- [ ] Make simple calculations.
+- [ ] Read a random math-related quote.
+
 
 ## Built With
 
