@@ -123,11 +123,8 @@ export default class Calculator extends React.Component {
         themeColor={themeColor}
       />
     ));
-    const containerStyle = {
-      backgroundColor: themeColor[0],
-    };
     return (
-      <div className="container mt-5 rounded px-1 py-1 " style={containerStyle}>
+      <div className="container mt-5 rounded px-1 py-1 ">
         <Display
           literal="0"
           themeColor={themeColor}
