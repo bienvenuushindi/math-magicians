@@ -11,7 +11,7 @@ export default class Button extends React.Component {
     const {
       bgOperators, bgNumbers, textColor,
     } = themeColor;
-    const colorSet = () => {
+    const setColor = () => {
       const set = {
         bgColor: bgNumbers,
         color: textColor,
@@ -23,7 +23,7 @@ export default class Button extends React.Component {
       return set;
     };
 
-    const { bgColor, color } = colorSet();
+    const { bgColor, color } = setColor();
 
     const style = {
       backgroundColor: bgColor,
