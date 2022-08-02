@@ -2,6 +2,17 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 
 export default class Button extends React.Component {
+  constructor(props) {
+    super(props);
+    this.calculateExpression = this.calculateExpression.bind(this);
+  }
+
+  calculateExpression(e) {
+    this.setState({});
+    const { calculateExpression } = this.props;
+    calculateExpression(e.target.getAttribute('aria-label'));
+  }
+
   render() {
     const {
       id, category, label, themeColor,
@@ -40,6 +51,7 @@ export default class Button extends React.Component {
           type="button"
           category={category}
           style={style}
+          onClick={this.calculateExpression}
           dangerouslySetInnerHTML={{
             __html: label,
           }}
@@ -54,4 +66,5 @@ Button.propTypes = {
   category: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   themeColor: PropTypes.objectOf(PropTypes.string).isRequired,
+  calculateExpression: PropTypes.func.isRequired,
 };
