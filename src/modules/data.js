@@ -17,12 +17,12 @@ export const numbersAndOperators = [
   },
   {
     id: 'percentage',
-    symbol: '&percnt;',
+    symbol: '%',
     category: 'non-numeric',
   },
   {
     id: 'divide',
-    symbol: '&divide;',
+    symbol: '÷',
     category: 'operators',
   },
   {
@@ -42,7 +42,7 @@ export const numbersAndOperators = [
   },
   {
     id: 'multiply',
-    symbol: '&times;',
+    symbol: 'x',
     category: 'operators',
   },
   {
@@ -62,7 +62,7 @@ export const numbersAndOperators = [
   },
   {
     id: 'subtract',
-    symbol: '&minus;',
+    symbol: '-',
     category: 'operators',
   },
 
@@ -83,7 +83,7 @@ export const numbersAndOperators = [
   },
   {
     id: 'add',
-    symbol: '&plus;',
+    symbol: '+',
     category: 'operators',
   },
   {
@@ -93,12 +93,12 @@ export const numbersAndOperators = [
   },
   {
     id: 'decimal',
-    symbol: '&period;',
+    symbol: '.',
     category: 'number',
   },
   {
     id: 'equals',
-    symbol: '&equals;',
+    symbol: '=',
     category: 'operators',
   },
 ];
