@@ -11,6 +11,9 @@ This is a website for all fans of mathematics. It is a Single Page App (SPA) tha
 - HTML, CSS, JavaScript, React
 - Git, Linters, Webpack
 
+## Demo
+ [Demo](https://bienvenuushindi.github.io/math-magicians/)
+
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
 

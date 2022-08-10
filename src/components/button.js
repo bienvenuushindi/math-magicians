@@ -17,8 +17,8 @@ export default class Button extends React.Component {
     const {
       id, category, label, themeColor,
     } = this.props;
-    const buttonClass = 'btn border-light border w-100 d-3 shadow-lg';
-    const columnSize = id.localeCompare('zero') === 0 ? 'col-sm-6' : 'col-sm-3';
+    const buttonClass = 'btn border-light border  w-100 d-3 shadow-lg';
+    const columnSize = id.localeCompare('zero') === 0 ? 'col-sm-6 p-0' : 'col-sm-3 p-0';
     const {
       bgOperators, bgNumbers, textColor,
     } = themeColor;

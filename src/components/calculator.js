@@ -36,7 +36,7 @@ const Calculator = () => {
     />
   ));
   return (
-    <div className="container mt-5 rounded px-2 py-1 ">
+    <div className="container rounded ">
       <Display
         literal={expression.substring(0, 20)}
         themeColor={themeColor}
