@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Quote from './pages/quote';
 import CalculatorPage from './pages/calculator-page';
 import Navbar from './components/navbar';
+import NotMatch from './pages/not-match';
 
 const App = () => {
   const [headerStyles, setHeaderStyles] = useState({});
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<CalculatorPage />} />
           <Route path="/quote" element={<Quote updateHeaderBackground={setHeaderStyles} />} />
+          <Route path="*" element={<NotMatch />} />
         </Routes>
       </div>
     </div>
