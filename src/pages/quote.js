@@ -2,21 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
 const palette = [
-  '#e52b50',
-  '#ffbf00',
-  '#00f',
-  '#0095b6',
-  '#8a2be2',
-  '#de5d83',
-  '#cd7f32',
-  '#964b00',
-  '#800020',
-  '#702963',
-  '#960018',
-  '#de3163',
-  '#007ba7',
-  '#7b3f00',
-  '#4b0082',
+  '#1b1b1b',
+  '#3d3d3d',
+  '#2b2b2b',
+  '#100c08',
 ];
 
 const Quote = (props) => {
