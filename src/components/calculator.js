@@ -17,8 +17,9 @@ const Calculator = () => {
       setExpression('0');
     }, 2000);
     setDisplayTimeout(timeout);
+    console.log('hello');
     return clearTimeout(displayTimeout);
-  }, [expression]);
+  }, []);
   const calculateExpression = (buttonName) => {
     const { next, total, operation } = calculate(calculatorData, buttonName);
     setExpression(next || total || '0');

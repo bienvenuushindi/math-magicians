@@ -49,7 +49,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint --fix --ext .js,.jsx .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
