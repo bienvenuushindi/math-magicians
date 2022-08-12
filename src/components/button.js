@@ -52,10 +52,9 @@ export default class Button extends React.Component {
           category={category}
           style={style}
           onClick={this.calculateExpression}
-          dangerouslySetInnerHTML={{
-            __html: label,
-          }}
-        />
+        >
+          {label}
+        </button>
       </div>
     );
   }
