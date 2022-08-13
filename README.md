@@ -13,6 +13,8 @@ This is a website for all fans of mathematics. It is a Single Page App (SPA) tha
 
 ## Demo
  [Demo](https://bienvenuushindi.github.io/math-magicians/)
+ 
+ [Basic Maths](https://basicmaths.netlify.app/)
 
 ## Getting Started
 To get a local copy of this exercice, Please follow these simple example steps.
