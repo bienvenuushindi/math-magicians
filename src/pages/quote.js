@@ -67,6 +67,6 @@ const Quote = (props) => {
   );
 };
 Quote.propTypes = {
-  updateHeaderBackground: PropTypes.string.isRequired,
+  updateHeaderBackground: PropTypes.func.isRequired,
 };
 export default Quote;

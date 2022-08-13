@@ -5,9 +5,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter basename="/math-magicians">
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter basename="/math-magicians">
+    <App />
+  </BrowserRouter>,
 );
